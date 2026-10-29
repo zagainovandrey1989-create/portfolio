@@ -15,7 +15,7 @@ day through native desktop and mobile apps, including by voice. Its core is buil
 distributed architecture that, in a live test, delivered a **1.85× speed-up with identical results**.
 
 It ran 24/7 in my daily use from October 2025 to October 2026 and is now archived. It is not available
-for demos or access; to evaluate my skills, I am happy to do a paid test task on your real problem.
+for public demos or access; to evaluate my skills, I am happy to do a paid test task on your real problem.
 
 ## Scale at a glance
 
