@@ -14,8 +14,8 @@ with built-in self-checks, asks for biometric approval before anything sensitive
 day through native desktop and mobile apps, including by voice. Its core is built on a proprietary
 distributed architecture that, in a live test, delivered a **1.85× speed-up with identical results**.
 
-It ran 24/7 in my daily use from October 2025 to October 2026; it is currently archived and can be
-redeployed on request.
+It ran 24/7 in my daily use from October 2025 to October 2026 and is now archived. It is not available
+for demos or access; to evaluate my skills, I am happy to do a paid test task on your real problem.
 
 ## Scale at a glance
 
@@ -76,6 +76,6 @@ flowchart LR
 
 ## Status
 
-Archived since October 2026 (can be redeployed on request). US patent applications filed (patent pending). Technical details are available only under NDA.
+Archived since October 2026. US patent applications filed (patent pending). Technical details are available only under NDA.
 
 Author: Andrei Zagainov · [LinkedIn](https://www.linkedin.com/in/andrei-zagainov-245087362) · zagainov.andrey.1989+jobs@gmail.com
