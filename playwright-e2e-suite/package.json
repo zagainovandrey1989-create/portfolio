@@ -1,0 +1,25 @@
+{
+  "name": "playwright-e2e-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "End-to-end test suite (Playwright + TypeScript) for the Task Board app.",
+  "author": "Andrei Zagainov",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.2"
+  }
+}
