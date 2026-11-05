@@ -31,7 +31,7 @@ for public demos or access; to evaluate my skills, I am happy to do a paid test 
 | Operations | Self-healing watchdog, autonomous deployment of approved changes, tested migration to a new server |
 | Voice | Fully local speech-to-text and text-to-speech (no cloud voice services) |
 | Self-improvement | The system proposes upgrades to itself, tests them on a copy against a fixed exam suite, and only measured gains are accepted |
-| R&D | Proprietary distributed (P2P) layer — US patent applications filed, details confidential |
+| R&D | Proprietary distributed layer — US patent applications filed, details confidential |
 
 ## High-level architecture
 
@@ -49,7 +49,7 @@ flowchart LR
     GATE[Approval &<br/>security layer]
   end
   LLM[Open-weight LLM<br/>on dedicated GPU<br/>+ local voice]
-  P2P{{Distributed layer<br/>patent pending}}
+  DIST{{Distributed layer<br/>patent pending}}
   BK[(Encrypted<br/>nightly backups)]
 
   PC --> PN
@@ -59,7 +59,7 @@ flowchart LR
   API --> TASK
   TASK --> GATE
   API --> LLM
-  LLM --- P2P
+  LLM --- DIST
   Core --> BK
 ```
 
